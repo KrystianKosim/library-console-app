@@ -1,0 +1,11 @@
+pluginManagement {
+    repositories {
+        mavenCentral()
+    }
+}
+
+rootProject.name = 'LibraryApplication'
+include 'library-repository'
+include 'library-service'
+include 'library-utils'
+include 'library-application'
